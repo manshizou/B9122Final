@@ -1,5 +1,4 @@
 #!/bin/bash
-#modified
 
 count=$(cat $1 | wc -l)
 
@@ -16,5 +15,5 @@ function numlines(){
 	fi
 
 }
-#output is done and modified
-echo $(numlines $count)
+
+#outbput
